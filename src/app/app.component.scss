@@ -8,8 +8,14 @@
 
 .logo {
   display: flex;
-  justify-content: center;
-  padding-block: max(3vh, 16px);
+  margin-block: max(3vh, 16px);
+  width: 300px;
+  height: 8vh;
+  align-self: center;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('../assets/logo.png');
 }
 
 h3 {
