@@ -18,11 +18,6 @@
   background-image: url('../assets/logo.png');
 }
 
-h3 {
-  margin: 0;
-  color: var(--primaryColor);
-}
-
 .text-content {
   font-size: 1.3em;
 }
@@ -43,6 +38,12 @@ h3 {
     padding: 8px;
     border: 2px double var(--primaryColor);
     background-color: rgba(0, 0, 0, 0.5);
+
+    h3 {
+      margin: 0;
+      color: var(--primaryColor);
+      padding-bottom: 16px;
+    }
 
     .last-games {
       margin-block: auto;
@@ -99,6 +100,7 @@ h3 {
       grid-template-rows: 1fr;
       grid-auto-columns: 1fr;
       padding: 8px;
+      overflow: auto;
 
       .column {
         padding-inline: 15px;
@@ -121,6 +123,7 @@ h3 {
       flex: 1;
       justify-content: space-evenly;
       padding-bottom: 24px;
+      grid-gap: 8px;
 
       &__names {
         font-size: 2em;
@@ -131,5 +134,12 @@ h3 {
         font-weight: bold;
       }
     }
+  }
+}
+
+@media (max-width: 1279px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
   }
 }
