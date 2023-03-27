@@ -27,10 +27,10 @@
     <div class="chart-box">
       <ng-container *ngFor="let player of sortByWinRate(players)">
         <ng-container [ngTemplateOutlet]="column" [ngTemplateOutletContext]="{
-            winrate: getWinRate(player),
+            winRate: getWinRate(player),
             color: playersColors[player],
             name: player,
-            winned: gamesWon(player),
+            won: gamesWon(player),
             played: gamesPlayed(player)
           }">
         </ng-container>
@@ -59,10 +59,10 @@
     <div class="chart-box">
       <ng-container *ngFor="let corporation of sortByWinRate(corporations)">
         <ng-container [ngTemplateOutlet]="column" [ngTemplateOutletContext]="{
-            winrate: getWinRate(corporation),
+            winRate: getWinRate(corporation),
             color: primaryColor,
             name: corporation,
-            winned: gamesWon(corporation),
+            won: gamesWon(corporation),
             played: gamesPlayed(corporation)
           }">
         </ng-container>
@@ -71,17 +71,17 @@
   </div>
 </div>
 
-<ng-template #column let-winrate="winrate" let-color="color" let-name="name" let-winned="winned" let-played="played">
+<ng-template #column let-winRate="winRate" let-color="color" let-name="name" let-won="won" let-played="played">
   <div class="column">
     <div class="text-content" [style.color]="color">
       {{ name }}
     </div>
-    <div class="column__data-viz" [style.background-color]="color" [style.height]="winrate * 2.5 + 'px'"></div>
+    <div class="column__data-viz" [style.background-color]="color" [style.height]="winRate * 2.5 + 'px'"></div>
     <div class="text-content">
-      {{ winrate }}%
+      {{ winRate }}%
     </div>
     <div class="text-content">
-      {{ winned }}&nbsp;/&nbsp;{{ played }}
+      {{ won }}&nbsp;/&nbsp;{{ played }}
     </div>
   </div>
 </ng-template>
