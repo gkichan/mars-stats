@@ -444,17 +444,17 @@ export const games: Game[] = [
     {
       name: PlayerName.Viktor,
       corporation: Corporation.Helion,
-      VP: 1
+      VP: 10
     },
     {
       name: PlayerName.Eugene,
       corporation: Corporation.EcoLine,
-      VP: 0
+      VP: 1
     },
     {
       name: PlayerName.Karina,
       corporation: Corporation.MiningGuild,
-      VP: 0
+      VP: 1
     }
   ],
   [
@@ -472,6 +472,28 @@ export const games: Game[] = [
       name: PlayerName.Karina,
       corporation: Corporation.Tharsis,
       VP: 67
+    }
+  ],
+  [
+    {
+      name: PlayerName.Viktor,
+      corporation: Corporation.Tharsis,
+      VP: 79
+    },
+    {
+      name: PlayerName.Eugene,
+      corporation: Corporation.Credicor,
+      VP: 66
+    },
+    {
+      name: PlayerName.Karina,
+      corporation: Corporation.Helion,
+      VP: 55
+    },
+    {
+      name: PlayerName.Oleh,
+      corporation: Corporation.PhobLog,
+      VP: 51
     }
   ]
 ];

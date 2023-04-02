@@ -2,7 +2,7 @@ export enum PlayerName {
   Eugene = 'Женя',
   Karina = 'Каріна',
   Viktor = 'Віктор',
-  // Oleh = 'Олег',
+  Oleh = 'Олег',
   // Alex = 'Саша'
 }
 
@@ -31,8 +31,8 @@ export const playersColors: Record<PlayerName, string> = {
   [PlayerName.Eugene]: 'rgb(221,21,64)',
   [PlayerName.Viktor]: 'rgb(39,148,244)',
   [PlayerName.Karina]: 'rgb(74,169,66)',
-  // [PlayerName.Oleh]: 'yellow',
-  // [PlayerName.Alex]: 'purple'
+  [PlayerName.Oleh]: 'rgb(147,114,167)',
+  // [PlayerName.Alex]: primaryColor
 }
 
 export const primaryColor = 'rgb(100,197,166)';

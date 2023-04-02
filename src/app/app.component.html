@@ -12,12 +12,16 @@
       </div>
       <div class="last-games__row" *ngFor="let game of last3Games">
         <div class="last-games__cell" *ngFor="let player of players" [class.winner]="isWinner(game, player)">
-          <div class="last-games__corp">
-            {{ getPlayerStatsInGame(player, game)?.corporation }}
-          </div>
-          <div class="last-games__vp">
-            {{ getPlayerStatsInGame(player, game)?.VP }}
-          </div>
+          <ng-container *ngIf="getPlayerStatsInGame(player, game)?.corporation as corporation; else emptyRow">
+            <ng-container *ngIf="getPlayerStatsInGame(player, game)?.VP as VP">
+              <div class="last-games__corp">
+                {{ corporation }}
+              </div>
+              <div class="last-games__vp">
+                {{ VP }}
+              </div>
+            </ng-container>
+          </ng-container>
         </div>
       </div>
     </div>
@@ -84,4 +88,8 @@
       {{ won }}&nbsp;/&nbsp;{{ played }}
     </div>
   </div>
+</ng-template>
+
+<ng-template #emptyRow>
+  <span>-</span>
 </ng-template>
