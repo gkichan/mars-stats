@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
-import { games } from './data';
+import {games} from './data';
 import {Corporation, Game, Player, PlayerName, playersColors, primaryColor} from './models';
+import {ApiService} from './api.service';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +11,11 @@ import {Corporation, Game, Player, PlayerName, playersColors, primaryColor} from
 export class AppComponent {
   readonly playersColors: Record<PlayerName, string> = playersColors;
   readonly primaryColor: string = primaryColor;
+
+  constructor(
+    private apiService: ApiService
+  ) {
+  }
 
   get players(): PlayerName[] {
     return Object.values(PlayerName);
