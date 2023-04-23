@@ -512,5 +512,22 @@ export const games: Game[] = [
       corporation: Corporation.Helion,
       VP: 74
     }
+  ],
+  [
+    {
+      name: PlayerName.Viktor,
+      corporation: Corporation.PhobLog,
+      VP: 84
+    },
+    {
+      name: PlayerName.Eugene,
+      corporation: Corporation.EcoLine,
+      VP: 74
+    },
+    {
+      name: PlayerName.Karina,
+      corporation: Corporation.Credicor,
+      VP: 81
+    }
   ]
 ];

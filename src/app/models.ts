@@ -15,7 +15,7 @@ export enum Corporation {
   EcoLine = 'EcoLine',
   MiningGuild = 'MiningGuild',
   ThorGate = 'ThorGate',
-  PhobLog = 'PhobLog',
+  PhobLog = 'PhoboLog',
   Helion = 'Helion',
   SaturnSystems = 'SaturnSystems',
   Cinematics = 'Cinematics'
