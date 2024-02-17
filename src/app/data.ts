@@ -633,3 +633,6 @@ export const games: Game[] = [
     }
   ]
 ];
+
+// to deploy changes to GitHub pages
+// run 'yarn run deploy-to-pages' from main branch
