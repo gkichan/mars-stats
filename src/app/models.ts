@@ -18,7 +18,9 @@ export enum Corporation {
   PhobLog = 'PhoboLog',
   Helion = 'Helion',
   SaturnSystems = 'SaturnSystems',
-  Cinematics = 'Cinematics'
+  Cinematics = 'Cinematics',
+  Viron = 'Viron',
+  Aphrodite = 'Aphrodite',
 }
 
 export type Player = {
