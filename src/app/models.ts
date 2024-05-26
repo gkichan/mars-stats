@@ -21,6 +21,8 @@ export enum Corporation {
   Cinematics = 'Cinematics',
   Viron = 'Viron',
   Aphrodite = 'Aphrodite',
+  MorningStar = 'MorningStar',
+  ManuTech = 'ManuTech',
 }
 
 export type Player = {
