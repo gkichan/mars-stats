@@ -13,15 +13,15 @@ export enum Corporation {
   Inventrix = 'Inventrix',
   Teractor = 'Teractor',
   EcoLine = 'EcoLine',
-  MiningGuild = 'MiningGuild',
+  MiningGuild = 'Mining Guild',
   ThorGate = 'ThorGate',
   PhobLog = 'PhoboLog',
   Helion = 'Helion',
-  SaturnSystems = 'SaturnSystems',
+  SaturnSystems = 'Saturn Systems',
   Cinematics = 'Cinematics',
   Viron = 'Viron',
   Aphrodite = 'Aphrodite',
-  MorningStar = 'MorningStar',
+  MorningStar = 'Morning Star',
   ManuTech = 'ManuTech',
 }
 
