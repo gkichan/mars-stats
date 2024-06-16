@@ -23,6 +23,7 @@ export enum Corporation {
   Aphrodite = 'Aphrodite',
   MorningStar = 'Morning Star',
   ManuTech = 'ManuTech',
+  Celestic = 'Celestic',
 }
 
 export type Player = {
