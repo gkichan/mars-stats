@@ -24,6 +24,8 @@ export enum Corporation {
   MorningStar = 'Morning Star',
   ManuTech = 'ManuTech',
   Celestic = 'Celestic',
+  Recyclon = 'Recyclon',
+  ArcadianCommunities = 'Arcadian Communities',
 }
 
 export type Player = {
