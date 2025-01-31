@@ -1090,6 +1090,23 @@ export const games: Game[] = [
       corporation: Corporation.Tharsis,
       VP: 70
     }
+  ],
+  [
+    {
+      name: PlayerName.Viktor,
+      corporation: Corporation.UNMI,
+      VP: 82
+    },
+    {
+      name: PlayerName.Eugene,
+      corporation: Corporation.MorningStar,
+      VP: 93
+    },
+    {
+      name: PlayerName.Karina,
+      corporation: Corporation.PhobLog,
+      VP: 67
+    }
   ]
 ];
 
