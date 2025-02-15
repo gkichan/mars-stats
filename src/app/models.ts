@@ -27,6 +27,7 @@ export enum Corporation {
   Recyclon = 'Recyclon',
   ArcadianCommunities = 'Arcadian Communities',
   Splice = 'Splice',
+  Beginner = 'Beginner',
 }
 
 export type Player = {
