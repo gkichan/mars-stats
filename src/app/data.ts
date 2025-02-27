@@ -1243,8 +1243,25 @@ export const games: Game[] = [
       corporation: Corporation.EcoLine,
       VP: 94
     }
+  ],
+  [
+    {
+      name: PlayerName.Viktor,
+      corporation: Corporation.SaturnSystems,
+      VP: 85
+    },
+    {
+      name: PlayerName.Eugene,
+      corporation: Corporation.MorningStar,
+      VP: 66
+    },
+    {
+      name: PlayerName.Karina,
+      corporation: Corporation.Credicor,
+      VP: 70
+    }
   ]
 ];
 
 // to deploy changes to GitHub pages
-// run 'yarn run deploy-to-pages' from main branch
+// run ' yarn run deploy-to-pages ' from main branch
