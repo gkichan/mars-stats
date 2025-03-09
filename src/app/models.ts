@@ -28,6 +28,8 @@ export enum Corporation {
   ArcadianCommunities = 'Arcadian Communities',
   Splice = 'Splice',
   Beginner = 'Beginner',
+  Astrodrill = 'Astrodrill',
+  PharmacyUnion = 'Pharmacy Union',
 }
 
 export type Player = {
